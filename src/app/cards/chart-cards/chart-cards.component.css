@@ -44,13 +44,13 @@
 
 
 .chart-1 p {
-  width: 100%; /* Ensure that the text content spans the full width */
+  width: 100%; 
 
 }
 
-/* CSS for .basic-table (your table) */
+
 .basic-table {
-  width: 100%; /* Make the table occupy the full width of the container */
+  width: 100%; 
   border-collapse: collapse;
   border: 1px solid #ddd;
   
