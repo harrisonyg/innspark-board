@@ -1,0 +1,16 @@
+.dash-body
+{
+    margin: 25px;
+    padding: 1px 35px;
+   
+}
+
+
+@media screen and (max-width: 768px) {
+    .dash-body
+    {
+        margin:3px;
+        padding: 1px 6px;
+
+    }
+}

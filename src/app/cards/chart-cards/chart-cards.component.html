@@ -1,0 +1,109 @@
+<div class="charts">
+    <div class="chart-1">
+        <p>Overall trafic statistics</p>
+        <canvas baseChart 
+            [datasets]="barChartData" 
+            [labels]="barChartLabels" 
+            [options]="barChartOptions"
+            [type]="barChartType" 
+            [legend]="barChartLegend" 
+                class="chart-1-canvas">
+        </canvas>
+    </div>
+
+    <div class="chart-1">
+        <p>Traffic by source types</p>
+        <canvas baseChart 
+            [datasets]="barChartData2" 
+            [labels]="barChartLabels2"
+            [options]="barChartOptions2"
+            [type]="barChartType2"
+            [legend]="barChartLegend2"
+             class="chart-1-canvas">
+        </canvas>
+    </div>
+
+    <div class="chart-1">
+        <p>Traffic by organization</p>
+        <canvas baseChart 
+            [datasets]="barChartData3" 
+            [labels]="barChartLabels3" 
+            [options]="barChartOptions3"
+            [type]="barChartType3" 
+            [legend]="barChartLegend3"
+             class="chart-1-canvas">
+        </canvas>
+    </div>
+
+</div>
+
+
+
+<div class="charts">
+    <div class="chart-1">
+        <p>Thread category statistics</p>
+        <canvas baseChart 
+            [datasets]="barChartData4" 
+            [labels]="barChartLabels4"
+            [options]="barChartOptions4"
+            [type]="barChartType4"
+            [legend]="barChartLegend4"
+             class="chart-1-canvas">
+        </canvas>
+    </div>
+
+    <div class="chart-1">
+       
+        <table class="basic-table">
+            <tr>
+                <th>organization</th>
+                <th>statics</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+                <th>Header 5</th>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+                <td>Data 4</td>
+                <td>Data 5</td>
+            </tr>
+            <tr>
+                <td>Data 6</td>
+                <td>Data 7</td>
+                <td>Data 8</td>
+                <td>Data 9</td>
+                <td>Data 10</td>
+            </tr>
+            <tr>
+                <td>Data 11</td>
+                <td>Data 12</td>
+                <td>Data 13</td>
+                <td>Data 14</td>
+                <td>Data 15</td>
+            </tr>
+            <tr>
+                <td>Data 16</td>
+                <td>Data 17</td>
+                <td>Data 18</td>
+                <td>Data 19</td>
+                <td>Data 20</td>
+            </tr>
+        </table>
+    </div>
+   
+
+    <div class="chart-1">
+        <p>Traffic by recognized log sources</p>
+        <canvas baseChart 
+            [datasets]="barChartData6"
+            [labels]="barChartLabels6"
+            [options]="barChartOptions6"
+            [type]="barChartType6"
+            [legend]="barChartLegend6" 
+                class="chart-1-canvas" >
+        </canvas>
+    </div>
+
+</div>

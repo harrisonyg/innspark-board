@@ -1,0 +1,34 @@
+<div class="navbar">
+    <button class="burger-menu" (click)="isBurgerMenuOpen = !isBurgerMenuOpen">☰ MENU</button>
+    <div class="navbar-container" [class.open]="isBurgerMenuOpen">
+      <div class="navbar-con" (click)="setActiveLink('home')" [class.active]="activeLink === 'home'">
+        <mat-icon class="mat">home</mat-icon>
+        <span>Home</span>
+      </div>
+      <div class="navbar-con" (click)="setActiveLink('monitor')" [class.active]="activeLink === 'monitor'">
+        <mat-icon class="mat">desktop_mac</mat-icon>
+        <span>Monitor</span>
+      </div>
+      <div class="navbar-con" (click)="setActiveLink('search')" [class.active]="activeLink === 'search'">
+        <mat-icon class="mat">search</mat-icon>
+        <span>Search</span>
+      </div>
+      <div class="navbar-con" (click)="setActiveLink('bug_report')" [class.active]="activeLink === 'bug_report'">
+        <mat-icon class="mat">bug_report</mat-icon>
+        <span>Bug</span>
+      </div>
+      <div class="navbar-con" (click)="setActiveLink('Service')" [class.active]="activeLink === 'Service'">
+        <mat-icon>build</mat-icon>
+        <span>Service</span>
+      </div>
+      <div class="navbar-con" (click)="setActiveLink('Report')" [class.active]="activeLink === 'Report'">
+        <mat-icon>assignment</mat-icon>
+        <span>Report</span>
+      </div>
+      <div class="navbar-con" (click)="setActiveLink('settings')" [class.active]="activeLink === 'settings'">
+        <mat-icon>settings</mat-icon>
+        <span>settings</span>
+      </div>
+    </div>
+  </div>
+  

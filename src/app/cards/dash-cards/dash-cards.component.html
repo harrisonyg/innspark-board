@@ -1,0 +1,9 @@
+<div class="dash-cards">
+    <div class="card" *ngFor="let randomNo of randomNumbers; let i = index" [class]="'card-' + (i + 1)">
+        <h2>{{ randomNo }}</h2>
+        <p>Todas log event, <br> {{ randomNo }} per hour</p>
+        <div class="progress">
+            <div class="progress-indi" [class]="'progress-indi-' + (i + 1)"></div>
+        </div>
+    </div>
+</div>
